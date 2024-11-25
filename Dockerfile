@@ -19,4 +19,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD npx nodemon -L --inspect=0.0.0.0:9229 index.js --host 0.0.0.0 --port 3000 --cache cache
+CMD ["npx", "nodemon", "-L", "--inspect=0.0.0.0:9229", "index.js"]

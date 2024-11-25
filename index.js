@@ -104,4 +104,7 @@ const server = app.listen(options.port, options.host, () => {
   console.log(`Server running at http://${options.host}:${options.port}/`);
 });
 //chrome://inspect
+// node index.js --host 127.0.0.1 --port 3000 --cache ./cache 
 //node --inspect=0.0.0.0:9229 index.js --host=0.0.0.0 --port=3000 --cache=cache
+//docker-compose down
+//docker-compose up --build
